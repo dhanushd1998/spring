@@ -6,8 +6,9 @@
 <!-- bean definitions here -->
     <bean id="alien1" class="com.dhanush.Alien">
         <property name="age" value="25"></property>
+        <property name="laptop" ref="laptop"></property>
+
     </bean>
     <bean id="laptop" class="com.dhanush.Laptop">
-
     </bean>
 </beans>
