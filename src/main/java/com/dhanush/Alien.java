@@ -8,6 +8,11 @@ public class Alien {
         System.out.println("Alien");
     }
 
+    public Alien(int age) {
+        System.out.println("Para called");
+        this.age = age;
+    }
+
     public int getAge() {
         return age;
     }
